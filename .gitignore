@@ -1,0 +1,5 @@
+go_markdown/frontend/dist
+go_markdown/frontend/wailsjs
+go_markdown/frontend/node_modules
+go_markdown/build/bin
+go_markdown/frontend/package.json.md5
