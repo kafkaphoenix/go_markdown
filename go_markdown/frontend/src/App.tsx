@@ -1,6 +1,6 @@
 import './App.css'
 import {useRef, useState} from "react";
-import { updateValue, newAction, openAction, saveAction, exportAction } from './actions'
+import { updateValue, newAction, openAction, saveAction, exportAction } from './Actions'
 import { Button } from './Button';
 import { TextArea } from './TextArea';
 import { MarkdownPreview } from './MarkdownPreview';

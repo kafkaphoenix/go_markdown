@@ -1,8 +1,13 @@
 module go_markdown
 
-go 1.20
+go 1.22.3
 
-require github.com/wailsapp/wails/v2 v2.8.2
+require (
+	github.com/go-pdf/fpdf v0.9.0
+	github.com/mitchellh/go-homedir v1.1.0
+	github.com/wailsapp/wails/v2 v2.8.2
+	github.com/yuin/goldmark v1.7.1
+)
 
 require (
 	github.com/bep/debounce v1.2.1 // indirect
@@ -33,5 +38,3 @@ require (
 	golang.org/x/sys v0.20.0 // indirect
 	golang.org/x/text v0.15.0 // indirect
 )
-
-// replace github.com/wailsapp/wails/v2 v2.8.2 => C:\Users\jagui\go\pkg\mod
