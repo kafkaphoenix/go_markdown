@@ -1,26 +1,26 @@
-## About
+# Go markdown
 
-Wails template which includes: Vite, React, TS, TailwindCSS out of the box.
+Wails example which includes: React, TS and TailwindCSS
 
-Build with `Wails CLI v2.0.0`.
+Build with `Wails CLI v2.9.1`.
 
-To use this [template](https://wails.io/docs/community/templates):
+To run use the makefile command:
 ```shell
-wails init -n "Your Project Name" -t https://github.com/hotafrika/wails-vite-react-ts-tailwind-template
-cd frontend/src
-npm install
+make app
 ```
 
-[Here](scripts) you can find useful scripts for building on different platforms and Wails CLI installation.
+To build the binary use the makefile command:
+```shell
+make build
+```
 
-## Live Development
+## Dependencies
 
-To run in live development mode, run `wails dev` in the project directory. In another terminal, go into the `frontend`
-directory and run `npm run dev`. The frontend dev server will run on http://localhost:34115. Connect to this in your
-browser and connect to your application.
-
-## Building
-
-To build a redistributable, production mode package, use `wails build`.
-
+- Go 1.22+ (https://golang.org/dl/)
+- Node 20.0+ (https://nodejs.org/en/download/package-manager/current)
+- Wails CLI v2.9.1 (https://wails.io/docs/gettingstarted/installation)
+- In Ubuntu, you may need to install the following packages:
+```shell
+sudo apt-get install build-essential libgtk-3-dev webkit2gtk-4.0 libcanberra-gtk-module
+```
 

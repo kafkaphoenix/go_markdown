@@ -5,7 +5,7 @@ go 1.22.3
 require (
 	github.com/go-pdf/fpdf v0.9.0
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/wailsapp/wails/v2 v2.8.2
+	github.com/wailsapp/wails/v2 v2.9.1
 	github.com/yuin/goldmark v1.7.1
 )
 
